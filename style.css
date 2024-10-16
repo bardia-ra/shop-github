@@ -140,4 +140,10 @@ img{
     .footer{
         width: 100%;
     }
+    .main-img{
+        height: 300px;
+    }
+    .mimg{
+        height: 300px;
+    }
 }
