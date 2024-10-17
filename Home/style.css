@@ -112,13 +112,10 @@ img{
     justify-content: center;
 }
 .button{
-    margin-top: 40px;
+    margin-top: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
-}
-.butt{
-    width: 90%;
 }
 @media (max-width:992px){
     .off{
