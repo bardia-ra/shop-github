@@ -42,7 +42,6 @@ body{
 }   
 .form{
     width: 70%;
-    /* height: 70%; */
     background-color: #f1f1f1;
     border-radius: 20px;
     padding: 30px;
@@ -70,6 +69,7 @@ img{
     display: flex;
     margin-top: 20px;
     background-color: black;
+    
 }
 .ft{
     width: 50%;
@@ -98,12 +98,24 @@ img{
         margin: 0 ;
     }
     .phone{
-        margin: 70px 0;
+        /* margin: 70px 0; */
+        margin-top: 50px;
         opacity: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         flex-direction: column;
     }
     
+}
+@media (max-height:700px){
+    .footer{
+        opacity: 0;
+    }
+    .ft{
+        opacity: 0;
+    }
+    .phone{
+        opacity: 0;
+    }
 }
