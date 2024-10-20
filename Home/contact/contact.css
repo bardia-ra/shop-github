@@ -43,7 +43,7 @@ body{
 .form{
     width: 70%;
     height: 70%;
-    background-color: black;
+    background-color: #f1f1f1;
     border-radius: 20px;
     padding: 30px;
     /* align-self: center; */
@@ -98,7 +98,7 @@ img{
         margin: 0 ;
     }
     .phone{
-        margin: 20px 0;
+        margin: 70px 0;
         opacity: 100%;
         display: flex;
         justify-content: center;

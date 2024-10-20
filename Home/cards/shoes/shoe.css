@@ -67,6 +67,7 @@ img{
 }
 .cimg .img1:hover{
     opacity: 0;
+    transition: 1s;
 }
 
 .white{
