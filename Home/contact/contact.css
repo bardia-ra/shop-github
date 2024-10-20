@@ -109,6 +109,12 @@ img{
     
 }
 @media (max-height:700px){
+    .footer{
+        opacity: 0;
+    }
+    .ft{
+        opacity: 0;
+    }
     .phone{
         opacity: 0;
     }
